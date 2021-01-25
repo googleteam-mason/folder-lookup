@@ -9,9 +9,9 @@ import (
 	"strconv"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/googleteam-mason/folder-lookup/tree/master/fetcher"
-	"github.com/googleteam-mason/folder-lookup/tree/master/saver"
-	"github.com/googleteam-mason/folder-lookup/tree/"
+	"github.com/pmenglund/gcp-folders/fetcher"
+	"github.com/pmenglund/gcp-folders/saver"
+	"github.com/pmenglund/gcp-folders/tree
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 )
