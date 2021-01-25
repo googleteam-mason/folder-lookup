@@ -11,7 +11,7 @@ import (
 	"cloud.google.com/go/bigquery"
 	"github.com/pmenglund/gcp-folders/fetcher"
 	"github.com/pmenglund/gcp-folders/saver"
-	"github.com/pmenglund/gcp-folders/tree
+	"github.com/pmenglund/gcp-folders/tree"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 )
